@@ -17,7 +17,8 @@ module.exports = {
       gray: {
         lightGrayBlue: 'hsl(240, 75%, 98%)',
         light: 'hsl(0, 0%, 75%)',
-      }
+      },
+      white: '#ffffff',
     },
 
     screens: {

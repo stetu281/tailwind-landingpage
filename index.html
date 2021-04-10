@@ -12,7 +12,7 @@
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 <body class="font-openSans text-blue-dark">
-  <header class="mx-auto mt-6 w-11/12 max-w-screen-desktop flex items-center justify-between desktop:mt-10">
+  <header class="mx-auto mt-6 w-10/12 max-w-screen-desktop flex items-center justify-between desktop:mt-10">
     <img src="images/logo.svg" class="w-20 desktop:w-28" alt="Logo">
     <ul class="flex font-raleway">
       <li class="mr-3 desktop:mr-8"><a href="#">Features</a></li>
@@ -20,16 +20,25 @@
       <li><a href="#">Sign in</a></li>
     </ul>
   </header>
+  <main>
+    <section class="mx-auto w-10/12 max-w-screen-desktop desktop:flex justify-between items-center">
+      <img src="images/illustration-1.svg" class="mt-24 desktop:order-2 w-6/12" alt="Illustration">
+      <div class="text-center desktop:text-left w-6/12">
+        <h1 class="mt-10 font-raleway font-bold text-2xl desktop:text-4xl">All your files in one secure location, accessible anywhere.</h1>
+        <p class="mt-5 text-sm max-w-lg desktop:text-base">
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>
+        <form class="flex flex-col mt-10 desktop:flex-row">
+          <input class="p-3 border border-blue-dark desktop:w-6/12" type="email" placeholder="Enter your email...">
+          <button class="p-3 mt-5 bg-blue-bright font-raleway font-bold text-white desktop:mt-0 ml-3 w-3/12">Get Started</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
 <!-- 
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
 
   Stay productive, wherever you are
 

@@ -6,6 +6,7 @@ module.exports = {
       'raleway': ['Raleway', 'sans-serif'],
       'openSans': ['Open Sans', 'sans-serif']
     },
+
     colors: {
       blue: {
         dark: 'hsl(243, 87%, 12%)',
@@ -18,7 +19,11 @@ module.exports = {
         light: 'hsl(0, 0%, 75%)',
       }
     },
-    extend: {},
+
+    screens: {
+      'mobile': '375px',
+      'desktop': '1440px',
+    },
   },
   variants: {
     extend: {},

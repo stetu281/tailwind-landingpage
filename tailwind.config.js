@@ -13,7 +13,7 @@ module.exports = {
           dark: 'hsl(243, 87%, 12%)',
           desatured: 'hsl(238, 22%, 44%)',
           bright: 'hsl(224, 93%, 58%)',
-          cyan: 'hsl(170, 45%, 43%)'
+          cyan: 'hsl(170, 45%, 43%)',
         },
         gray: {
           lightGrayBlue: 'hsl(240, 75%, 98%)',

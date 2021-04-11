@@ -7,24 +7,32 @@ module.exports = {
       'openSans': ['Open Sans', 'sans-serif']
     },
 
-    colors: {
-      blue: {
-        dark: 'hsl(243, 87%, 12%)',
-        desatured: 'hsl(238, 22%, 44%)',
-        bright: 'hsl(224, 93%, 58%)',
-        cyan: 'hsl(170, 45%, 43%)'
+    extend: {
+      colors: {
+        blue: {
+          dark: 'hsl(243, 87%, 12%)',
+          desatured: 'hsl(238, 22%, 44%)',
+          bright: 'hsl(224, 93%, 58%)',
+          cyan: 'hsl(170, 45%, 43%)'
+        },
+        gray: {
+          lightGrayBlue: 'hsl(240, 75%, 98%)',
+          light: 'hsl(0, 0%, 75%)',
+        },
+        white: '#ffffff',
       },
-      gray: {
-        lightGrayBlue: 'hsl(240, 75%, 98%)',
-        light: 'hsl(0, 0%, 75%)',
+
+      screens: {
+        'mobile': '375px',
+        'desktop': '1024px',
       },
-      white: '#ffffff',
+
+      maxWidth: {
+        'container': '1440px',
+      }
     },
 
-    screens: {
-      'mobile': '375px',
-      'desktop': '1440px',
-    },
+
   },
   variants: {
     extend: {},
